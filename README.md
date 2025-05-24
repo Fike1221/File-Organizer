@@ -35,7 +35,4 @@
 
 ## **Customization**
 
-### Since we're going to organize files by extension, 
-### it totally makes sense to put the files of the same type (such as mp3, wav)
-### on the same folder (such as "audio"), below Python dictionary maps each extension to a type, 
-### feel free to edit on your needs to the extensions.py file:
+### Since we're going to organize files by extension, it totally makes sense to put the files of the same type (such as mp3, wav)on the same folder (such as "audio"), below Python dictionary maps each extension to a type, feel free to edit on your needs to the extensions.py file:
