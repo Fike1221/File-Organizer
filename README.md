@@ -4,7 +4,7 @@
 
 ## **Features** 
 
-- The program receives the absolute path of the folder name
+- The program receives the absolute path of the folder name that contains the files to be organized
 - The program Checks Whether the given folder exists in the computer and whether it contains files.
 - Automatically detects file types by their extension.
 - Moves files in to categorized folders of the same type
