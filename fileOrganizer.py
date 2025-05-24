@@ -18,10 +18,6 @@ def init():
         keep_sorting = input("Do you went to continue 'yes/no' (default is no)? ").lower() in 'yes'
 
 
-@execution_time
-def sleep_two():
-    time.sleep(2)
-
 
 # check weather this file is not imported from any other files
 if __name__ == '__main__':
