@@ -69,12 +69,12 @@ def check_path(path: str | Path) -> bool:
 
     # check if the path exists
     if not Path.exists(path) or not path.is_dir():
-        print("❌ The folder does not exist. Make sure You have inserted the right path (absolute) to your folder .")
+        print("👎 The folder does not exist. Make sure You have inserted the right path (absolute) to your folder .")
         return False
 
     # check if the path includes files
     elif not any(p.is_file() for p in path.iterdir()):
-        print("❌ Your folder is empty. Make sure you have inserted the right path (absolute) to your folder.")
+        print("👎 Your folder is empty. Make sure you have inserted the right path (absolute) to your folder.")
         return False
     else:
         return True
